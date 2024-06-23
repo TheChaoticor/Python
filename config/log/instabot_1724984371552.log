@@ -1,0 +1,14 @@
+2024-06-22 05:10:16,945 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-06-22 05:10:16,946 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\instabot\bot\bot.py
+2024-06-22 05:10:16,946 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-06-22 05:10:17,439 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2024-06-22 05:10:17,949 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-06-22 05:10:18,389 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-06-22 05:10:18,873 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-06-22 05:10:19,999 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-06-22 05:10:19,999 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2024-06-22 05:10:19,999 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-06-22 05:10:20,000 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2024-06-22 05:10:20,000 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2024-06-22 05:10:20,001 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2024-06-22 05:10:20,002 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
